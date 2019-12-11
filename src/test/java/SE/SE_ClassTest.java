@@ -136,6 +136,7 @@ public class SE_ClassTest {
         assertEquals('C',score);
     }
 
+
     @Test
     public void letterGrade_boundary_0_TO_59() {
         SE_Class SE = new SE_Class();
