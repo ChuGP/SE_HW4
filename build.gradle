@@ -3,6 +3,8 @@ plugins {
 }
 
 apply plugin: 'jacoco'
+apply plugin: 'application'
+mainClassName = 'SE.main'
 group 'SE'
 version '1.0-SNAPSHOT'
 
