@@ -1,19 +1,21 @@
 package SE;
 
+import java.io.InputStreamReader;
+import java.io.*;
 public class main {
-    public static void main(String args[]) {
-        SE_Class SE = new SE_Class();
-        char score = SE.letterGrade(94);
-        score = SE.letterGrade(84);
-        score = SE.letterGrade(74);
-        score = SE.letterGrade(64);
-        score = SE.letterGrade(54);
-        score = SE.letterGrade(44);
-        score = SE.letterGrade(34);
-        score = SE.letterGrade(24);
-        score = SE.letterGrade(14);
-        score = SE.letterGrade(4);
-        score = SE.letterGrade(-4);
-        System.out.println("SE PASS"); // Check IN
+    public static void main(String[] args) {
+        System.out.print("Enetr the score = ");
+        try {
+            InputStreamReader isr = new InputStreamReader(System.in);
+            BufferedReader br = new BufferedReader(isr);
+            int score = Integer.parseInt(br.readLine());
+            SE_Class SE = new SE_Class();
+            char grade = SE.letterGrade(score);
+            System.out.println("The grade of " + score + " is " + grade);
+        } catch (NumberFormatException ex) {
+            System.out.println("Not an integer!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SE.SE_ClassTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-12-11T12:42:31" hostname="DESKTOP-V5JPTA4" time="0.008">
+  <properties/>
+  <testcase name="letterGrade_boundary_60_TO_69" classname="SE.SE_ClassTest" time="0.005"/>
+  <testcase name="letterGrade_boundary_70_TO_79" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_A" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_B" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_C" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_D" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_F" classname="SE.SE_ClassTest" time="0.001"/>
+  <testcase name="letterGrade_X" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_boundary_0_TO_59" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_boundary_80_TO_89" classname="SE.SE_ClassTest" time="0.0"/>
+  <testcase name="letterGrade_boundary_90_TO_100" classname="SE.SE_ClassTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
